@@ -1,0 +1,26 @@
+.btn{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--red-color);
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+text-align: center;
+
+/* Белый */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 26px 54px;
+}

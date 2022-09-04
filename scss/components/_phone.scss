@@ -1,0 +1,14 @@
+.phone{font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  /* identical to box height, or 48px */
+
+  text-align: right;
+
+  color: #FFFFFF;
+  @media (max-width: (992px)) {
+    display: none;
+
+  }
+}

@@ -1,0 +1,56 @@
+.tooltip{
+  &__btn{
+    margin-left: 10px;
+    width: 24px;height: 24px;border-radius: 50%;
+    background: rgba(20, 16, 36, 0.08);
+    svg{
+      width: 6px;height: 18px;
+      padding-bottom: 2px;
+    }
+    @include hover{
+      + .tooltip__txt{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+    &:focus{
+      + .tooltip__txt{
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+  &__txt{
+
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 20px;
+gap: 10px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 2px 8px rgba(20, 16, 36, 0.1);
+border-radius: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+text-align: center;
+
+color: #141024;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+opacity: 0;
+visibility: hidden;
+transition: opacity 0.3s ease-in-out,visibility 0.3s ease in-out;
+  }
+}

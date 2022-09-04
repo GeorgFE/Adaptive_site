@@ -1,0 +1,109 @@
+.order {
+  @include image-set("../img/Mask");
+  padding: 87px;
+  height: 460px;
+  background: #D52027;
+  @media (max-width: (768px)) {
+    height: 700px;
+  }
+  @media (max-width: (492px)) {
+
+    padding: 10px;
+
+
+}
+}
+.container {
+}
+.order__container {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  gap: 64px;
+
+}
+.order__text {
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+
+color: #FFFFFF;
+}
+.order__item1 {
+  grid-column: 5 span;
+padding-left: 60px;
+@media (max-width: (768px)) {
+  grid-column:7 span;
+  margin-right: 10px;
+}
+}
+.order__item2 {
+  grid-column: 7 span;
+  @media (max-width: (808px)) {
+    grid-column: 6 span;
+  }
+  @media (max-width: (768px)) {
+    margin-left: 50px;
+  }
+}
+.order__title {
+  font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 130%;
+/* or 47px */
+
+
+color: #FFFFFF;
+margin-bottom: 20px;
+@media (max-width: (492px)) {
+margin: 0;
+
+
+}
+}
+.order__form {
+}
+.form {
+}
+.order__forma {
+}
+.form__label {
+
+width: 500px;
+height: 64px;
+
+
+background: #F6F6F6;
+border-radius: 5px;
+}
+.input-reset {
+}
+.form__input {font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: rgba(40, 41, 68, 0.7);
+}
+.btn-reset {
+}
+.form__btn {
+
+width: 500px;
+height: 64px;
+
+
+background: #141024;
+border-radius: 5px;
+}
+.btn {
+}
+.btn--dark {
+  margin-top: -10px;
+  padding-top: 23px;
+}

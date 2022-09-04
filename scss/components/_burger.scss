@@ -1,0 +1,84 @@
+.burger{
+
+  position: relative;
+  width: 44px;
+  height: 44px;
+
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+
+  border-radius: 10px;
+
+
+
+  &__line{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 1px;
+    width: 26px;
+    height: 0px;
+    top: 50%;
+    margin: 0 auto;
+
+    border: 1px solid #FFFFFF;
+    &:last-child{
+      margin-top: 7px;
+      width: 13px;
+      transform: translateX(-100%);
+    }
+    &:first-child{
+      margin-top: -7px;
+    }
+  }
+}
+
+.header {
+}
+.container-fluid {
+}
+.header__container {
+}
+.logo {
+}
+.image {
+}
+.nav {
+}
+.list-reset {
+}
+.nav__list {
+}
+.nav__item {
+}
+.nav__link {
+}
+.btn-reser {
+}
+.burger-close {
+
+
+position: relative;
+width: 44px;
+height: 44px;
+
+border:1px solid red;
+
+
+border-radius: 10px;
+background-image: url("../../img/svg/Group 311.svg");
+background-position: center;
+background-repeat: no-repeat;
+}
+.phone {
+}
+.header__phone {
+}
+.burger {
+}
+.btn-reset {
+}
+.burger__line {
+}

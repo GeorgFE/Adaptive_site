@@ -1,0 +1,27 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  @media (max-width: (492px)) {
+
+    margin-left: -50px;
+
+
+}
+  &__label{
+    display: flex;
+    flex-direction: column-reverse;
+width: 100%;
+margin-top: 10px;
+
+  }
+  &__input{
+    width: 100%;
+    height: 64px;
+    border-radius: 5px;
+  }
+  &__btn{
+    width: 100%;
+    padding-top: 25px;
+  }
+}

@@ -1,0 +1,92 @@
+.trainers{&__header{
+  font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 160%;
+/* identical to box height, or 80px */
+@media (max-width: (465px)) {
+
+  width: 80%;
+  font-size: 30px;
+
+
+}
+
+color: #141024;
+margin-bottom: 60px;}
+&__role{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+color: rgba(20, 16, 36, 0.7);
+@media (max-width: (465px)) {
+
+  width: 80%;
+  font-size: 10px;
+
+
+}
+}
+
+
+&__name{
+  font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 160%;
+/* or 38px */
+
+
+color: #141024;
+
+}
+&__btn{
+  margin-top: 15px;
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #D52027;}
+&__image{
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+  max-height: 500px;
+}
+&__img{
+
+}
+
+&__slider{
+  padding-left: max(15px, calc((100% - var(--content-width)) / 2));
+}
+&__scroll{
+  position: absolute;
+width: 260px;
+height: 5px;
+margin-top: 75px;
+
+
+border-radius: 40px;
+}
+&__nav{display: flex;font-display: row;
+
+}
+}
+.container{
+  @media (max-width: (487px)) {
+
+    width: 100%;
+
+
+
+  }
+}
+
+
+
